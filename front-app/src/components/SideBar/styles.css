@@ -1,0 +1,29 @@
+hr {
+  margin-top: 0px;
+}
+
+.side-bar {
+  margin-top: 10px;
+}
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter {
+  border-radius: 7px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 2px solid #dbdbdb;
+  background: none;
+  color: #000000;
+}
+
+.selected {
+  border: 2px solid #1976D2 !important;
+  background: #1976D2 !important;
+  color: #ffffff !important;
+}

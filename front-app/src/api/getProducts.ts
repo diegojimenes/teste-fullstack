@@ -20,7 +20,8 @@ export const getProducts = (axios: AxiosInstance) => async (filters?: Ifilters):
     filters?.marcas.length ||
     filters?.tamanhos.length ||
     filters?.esportes.length) {
-    return (json as Iproducts[]).filter(({
+    const products = (json as Iproducts[])
+    return [...products, ...products, ...products].filter(({
       type,
       seller,
       sport,
@@ -47,7 +48,8 @@ export const getProducts = (axios: AxiosInstance) => async (filters?: Ifilters):
 
     })
   } else {
-    return json as Iproducts[]
+    const products = (json as Iproducts[])
+    return [...products, ...products, ...products]
   }
 }
 

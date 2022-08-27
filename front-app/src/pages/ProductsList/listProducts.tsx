@@ -9,7 +9,7 @@ const ListProducts = ({ products }: { products: Iproducts[] }) => {
   const [currentProduct, setCurrentProduct] = useState<number | undefined>()
 
   return <WraperList>
-    {[...products, ...products, ...products].map((product, index) => {
+    {products.map((product, index) => {
       const toggleProduct = () => {
         if (currentProduct === index) {
           setCurrentProduct(undefined)

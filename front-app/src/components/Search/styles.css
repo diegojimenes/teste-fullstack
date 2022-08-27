@@ -1,0 +1,24 @@
+.input-group {
+  width: 200px !important;
+}
+
+.form-control {
+  height: 40px !important;
+  padding-left: 30px !important;
+  border-radius: 40px !important;
+  background: #efefef !important;
+  border: none !important;
+}
+
+.form-icon {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  z-index: 10px;
+}
+
+@media (min-width: 800px) {
+  .hide-sm {
+    display: flex !important;
+  }
+}
