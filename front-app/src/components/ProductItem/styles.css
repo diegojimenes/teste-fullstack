@@ -1,0 +1,15 @@
+.product-item {
+  width: 190px;
+  margin: 10px
+}
+
+.price {
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .product-item {
+    width: 335px;
+    padding: 0px;
+  }
+}

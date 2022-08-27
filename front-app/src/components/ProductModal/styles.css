@@ -1,0 +1,13 @@
+.product-modal {
+  width: 190px;
+  margin: 10px;
+}
+
+.buttom {
+  margin-bottom: 4px;
+  margin-left: 5px;
+}
+
+.price {
+  font-weight: bold;
+}
