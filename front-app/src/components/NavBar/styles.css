@@ -1,0 +1,45 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.nav {
+  margin-right: 10px;
+}
+
+.brand {
+  margin-left: 8%;
+}
+
+.cart {
+  border: none;
+  background: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  background: #6C757D;
+  position: absolute;
+  top: 10px;
+  right: 3px;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .cart {
+    display: none;
+  }
+
+  .input-group {
+    display: none !important;
+  }
+
+  .me-right {
+    margin-left: 5% !important;
+  }
+}
