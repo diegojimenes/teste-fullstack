@@ -3,3 +3,15 @@
   border: none;
   background: none;
 }
+
+.container-list {
+  padding-left: 8%;
+  padding-right: 8%,
+}
+
+@media (max-width: 800px) {
+  .container-list {
+    padding-left: 0%;
+    padding-right: 0%,
+  }
+}

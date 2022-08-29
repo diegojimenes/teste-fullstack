@@ -4,8 +4,8 @@ import FilterComponent from "./FilterComponet"
 import "./styles.css"
 
 const SideBar: React.FC<{ filters: Ifilters }> = ({ filters }) => {
-  return <Col sm="2" className="side-ba">
-    <hr />
+  return <Col sm="2" className="side-bar">
+    <hr className="side-bar-divider" />
     <FilterComponent filters={filters} name="marcas" />
     <FilterComponent filters={filters} name="esportes" />
     <FilterComponent filters={filters} name="tamanhos" />

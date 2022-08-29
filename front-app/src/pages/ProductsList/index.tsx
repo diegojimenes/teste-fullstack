@@ -7,6 +7,7 @@ import ListProducts from "./listProducts"
 import filterFactory from "../../components/utils/filterFactory"
 import { useSelector } from "react-redux"
 import { RootState } from "../../redux/store"
+import "./styles.css"
 
 export type FilterNames = "tipos" | "marcas" | "tamanhos" | "esportes" | "name"
 
@@ -44,11 +45,11 @@ const ProductsList = () => {
     getProducts(filtersState)
   }, [filtersState])
 
-  return <Container>
+  return <div className="container-list">
     <Row>
       <SideBar filters={filters} />
       <ListProducts products={products} />
     </Row>
-  </Container>
+  </div>
 }
 export default ProductsList

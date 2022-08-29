@@ -27,3 +27,18 @@ hr {
   background: #1976D2 !important;
   color: #ffffff !important;
 }
+
+.side-bar-divider {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .side-bar {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .side-bar-divider {
+    display: block;
+  }
+}

@@ -1,6 +1,6 @@
 .product-item {
   width: 190px;
-  margin: 10px
+  margin: 10px;
 }
 
 .price {
@@ -11,5 +11,6 @@
   .product-item {
     width: 335px;
     padding: 0px;
+    margin: 5px;
   }
 }
