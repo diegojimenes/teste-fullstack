@@ -5,3 +5,4 @@
 - teste do front na pasta "front-app"
 - respostas no arquivo "respostas.md"
 - e refatoração do arquivo main em "mainRefatorado.js"
+- script sql em "script.sql"
