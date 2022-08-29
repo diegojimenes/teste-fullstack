@@ -56,7 +56,7 @@ class DoSomething {
         let aux = [];
         for (C = 0; C <= CC - 1; C++) {
           if (ROWOFFSET + C * RR <= M) {
-              aux.push(P[ROWOFFSET + C * RR]);
+            aux.push(P[ROWOFFSET + C * RR]);
           }
         }
         console.log(aux.join('|'));
