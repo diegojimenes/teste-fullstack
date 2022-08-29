@@ -6,6 +6,10 @@ hr {
   margin-top: 10px;
 }
 
+.side-bar-title {
+  text-transform: capitalize;
+}
+
 .filter-container {
   display: flex;
   flex-wrap: wrap;

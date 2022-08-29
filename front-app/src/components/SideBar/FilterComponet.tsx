@@ -13,7 +13,7 @@ const FilterComponent = ({ filters, name }: {
   const filtersState = useSelector((state: RootState) => state.filter)
 
   return <>
-    <FormLabel>
+    <FormLabel className="side-bar-title">
       {name}
     </FormLabel>
     <hr />
